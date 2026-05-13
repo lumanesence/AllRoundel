@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'nj';
+  font-family: nj;
   src: url(https://allroundel.lumanesence.co.uk/nj.ttf) format('truetype');
 }
 
@@ -7,13 +7,14 @@
 
 
 * {
+  font-family: nj;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'nj';
+  font-family: nj;
   background: #f4f4f49f;
   padding: 0;
   display: flex;
@@ -26,7 +27,7 @@ body {
 
 /* Roundel container */
 #roundel {
-  font-family: 'nj';
+  font-family: nj;
   display: block;
   width: 400px;
   height: 400px;
@@ -34,7 +35,7 @@ body {
 
 /* Controls layout */
 .controls {
-  font-family: 'nj';
+  font-family: nj;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -46,7 +47,7 @@ body {
 }
 
 .controls label {
-  font-family: 'nj';
+  font-family: nj;
   font-weight: 600;
   margin-bottom: 4px;
 }
@@ -60,7 +61,7 @@ body {
 }
 
 .controls button {
-  font-family: 'nj';
+  font-family: nj;
   padding: 8px 12px;
   border-radius: 6px;
   border: none;
